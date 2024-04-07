@@ -25,6 +25,14 @@ body {
     text-decoration: none;
 }
 
+#a_cadastro{
+    font-weight: bold;
+}
+
+#a_inicio{
+    font-weight: bold;
+}
+
 .navbar a:hover{
     color: #32B9CD;
 }
@@ -47,6 +55,8 @@ body {
     background-image: url("./assets/imagens/bg-jelly-fish-para_outras_pags.png");
     height: 500px;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .banner .container{
@@ -98,5 +108,52 @@ body {
 .footer .container{
     justify-content: center;
     text-align: center;
+}
+
+.cadastro{
+    background-color: #d8d8d8;
+    width: 400px;
+    height: 450px;
+    border-radius: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: palevioletred;
+    font-weight: 550;
+    margin: 50px;
+}
+
+.cadastro .titulo{
+    font-size: 30px;
+    font-weight: 550;
+    color: palevioletred;
+    margin-bottom: 20px;
+}
+
+.cadastro input{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-color: #32b9cd;
+    width: 200px;
+    height: 32px;
+    border-style: double;
+    border-radius: 10px;
+}
+
+.cadastro button{
+    color: white;
+    background-color: #ff0364;
+    border-style: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    margin-top: 5%;
+    font-size: 18px;
+    font-weight: 600;
 }
 
